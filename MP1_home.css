@@ -87,3 +87,16 @@ footer a {
     animation: showText forwards;
     animation-delay: 1000ms ease-out;
 }
+
+.reveal {
+    position: relative;
+    transform: translate(150px);
+    opacity: 0;
+    transition: 2s all ease;
+
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
